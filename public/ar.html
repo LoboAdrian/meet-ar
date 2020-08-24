@@ -8,6 +8,7 @@
 </head>
 
 <body>
+
     <div class="container-fluid">
         <div class="row h-10 w-100">
             <div class="col">
@@ -23,11 +24,14 @@
                 </select>
             </div>
             <div class="col">
-                <div class="float-right mt-3">
-                    <input class="form-check-input" type="checkbox" id="theme">
-                    <label class="form-check-label" for="theme">
-                        Dark Theme
-                    </label>
+                <div id="buttons-container" class="row justify-content-center mt-3">
+                    <div id="audio-controls" class="col-md-2 text-center btn-group">
+                    </div>
+                    <div id="video-controls" class="col-md-2 text-center btn-group">
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <button class="raise exit" onclick="window.location.href='index.html' "></i>Exit</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -49,3 +53,4 @@
 </body>
 
 </html>
+
